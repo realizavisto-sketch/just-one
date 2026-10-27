@@ -4,11 +4,15 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import {
   THEME,
+  analysisSteps,
   checklist,
   comparisonRows,
+  controlItems,
   fieldQuestions,
   flashcards,
   glossary,
+  keyNumbers,
+  legalMilestones,
   qaItems,
   quizQuestions,
   studyPlan,
@@ -26,6 +30,7 @@ type Tab =
   | "comparativo"
   | "glossario"
   | "campo"
+  | "marcos"
   | "checklist";
 
 const TABS: { id: Tab; label: string; emoji: string }[] = [
@@ -36,6 +41,7 @@ const TABS: { id: Tab; label: string; emoji: string }[] = [
   { id: "comparativo", label: "Antigo x Novo", emoji: "⚖️" },
   { id: "glossario", label: "Glossário", emoji: "📖" },
   { id: "campo", label: "Questionário de Campo", emoji: "📋" },
+  { id: "marcos", label: "Marcos e Números", emoji: "📊" },
   { id: "checklist", label: "Checklist do TCC", emoji: "✅" },
 ];
 
@@ -722,6 +728,82 @@ function StudyTool() {
               acadêmicos. Não escreva seu nome, CPF, placa, telefone ou qualquer dado que
               identifique você.”
             </p>
+            <div className="space-y-3">
+              <h3 className="text-xl font-black">🔍 Como analisar as respostas depois</h3>
+              <p className="text-sm text-slate-600">
+                Não colete antes da autorização formal da ECV e da confirmação por escrito da
+                orientadora sobre a dispensa. Depois, siga os passos abaixo, sem expor cruzamentos
+                com pouquíssimas respostas.
+              </p>
+              {analysisSteps.map((item) => (
+                <Card key={item.step}>
+                  <CardHeader>
+                    <CardTitle className="text-base">{item.step}</CardTitle>
+                    <CardDescription className="text-sm leading-relaxed text-slate-700">
+                      {item.guidance}
+                    </CardDescription>
+                  </CardHeader>
+                </Card>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {tab === "marcos" && (
+          <section className="mt-4 space-y-6">
+            <div>
+              <h2 className="text-2xl font-black">📊 Marcos, números e controle</h2>
+              <p className="mt-1 max-w-3xl text-sm text-slate-600">
+                Os números e as normas abaixo vêm do TCC enviado, com as fontes citadas nele, como
+                ALMG e CET-MG. Antes de citar qualquer valor no trabalho final, confirme a base
+                legal e a data de referência com o orientador.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-black">Números-chave do TCC</h3>
+              <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                {keyNumbers.map((item) => (
+                  <Card key={item.label}>
+                    <CardHeader>
+                      <CardTitle className="text-2xl font-black text-teal-700">
+                        {item.value}
+                      </CardTitle>
+                      <CardDescription className="font-semibold text-slate-800">
+                        {item.label}
+                      </CardDescription>
+                    </CardHeader>
+                    <CardContent className="text-sm text-slate-600">{item.note}</CardContent>
+                  </Card>
+                ))}
+              </div>
+            </div>
+            <div className="space-y-3">
+              <h3 className="text-xl font-black">Linha do tempo normativa</h3>
+              {legalMilestones.map((item) => (
+                <Card key={item.norm}>
+                  <CardHeader>
+                    <CardTitle className="text-base">{item.norm}</CardTitle>
+                    <CardDescription>{item.date}</CardDescription>
+                  </CardHeader>
+                  <CardContent className="text-sm leading-relaxed text-slate-700">
+                    {item.what}
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+            <div className="space-y-3">
+              <h3 className="text-xl font-black">Como o Estado controla as ECVs</h3>
+              {controlItems.map((item) => (
+                <Card key={item.mechanism}>
+                  <CardHeader>
+                    <CardTitle className="text-base">{item.mechanism}</CardTitle>
+                    <CardDescription className="text-sm leading-relaxed text-slate-700">
+                      {item.how}
+                    </CardDescription>
+                  </CardHeader>
+                </Card>
+              ))}
+            </div>
           </section>
         )}
 

@@ -188,6 +188,79 @@ export const flashcards: Flashcard[] = [
       "Porque o laudo de vistoria sustenta decisões importantes, como transferência, regularização e segurança jurídica da compra de um veículo. Se o cidadão desconfia do laudo, todo o sistema perde legitimidade, mesmo que o atendimento seja rápido.",
     hint: "Rapidez sem confiança não é qualidade.",
   },
+
+  {
+    id: 19,
+    theme: "Modelo",
+    question: "Qual lei autorizou o credenciamento das ECVs em Minas Gerais?",
+    answer:
+      "A Lei Estadual nº 24.470/2023 autorizou a CET-MG a credenciar pessoas jurídicas de direito público ou privado para a vistoria de identificação veicular, com cobrança de preço público pelo serviço.",
+    hint: "24.470 é a lei do credenciamento.",
+  },
+  {
+    id: 20,
+    theme: "Modelo",
+    question: "Como o modelo foi regulamentado depois da lei?",
+    answer:
+      "Pelo Decreto Estadual nº 48.703/2023 e pelas Portarias CET-MG nº 1.290/2023 e nº 1.291/2023, que fixaram o rito do credenciamento, a vigência de 3 anos renováveis e o início das operações com fase de operação assistida.",
+    hint: "Lei autoriza, decreto regulamenta, portaria detalha.",
+  },
+  {
+    id: 21,
+    theme: "Administração",
+    question: "Quem passou a gerir o trânsito estadual em Minas Gerais?",
+    answer:
+      "A Coordenadoria Estadual de Gestão de Trânsito (CET-MG), vinculada à Seplag-MG. A Emenda à Constituição Estadual nº 113/2023 e a Lei nº 24.313/2023 transferiram as competências operacionais da Polícia Civil para a Seplag/CET-MG.",
+    hint: "Da Polícia Civil para a Seplag, via CET-MG.",
+  },
+  {
+    id: 22,
+    theme: "Administração",
+    question: "Qual é a formação exigida para ser vistoriador?",
+    answer:
+      "Ensino médio completo e curso presencial de capacitação de no mínimo 40 horas-aula, sendo ao menos 16 horas de atividades práticas, com prova teórica de 25 questões e acerto mínimo de 80%, além de prova prática em automóvel e motocicleta. Há ainda atualização anual presencial de no mínimo 20 horas. Base: Portaria DETRAN-MG nº 1.603/2022.",
+    hint: "40 horas, 16 práticas, 80% na teórica.",
+  },
+  {
+    id: 23,
+    theme: "Cidadão",
+    question: "O que uma ECV precisa ter de infraestrutura?",
+    answer:
+      "Instalações permanentes em alvenaria, recepção climatizada, sanitários adaptados conforme a ABNT NBR 9050:2020 e área coberta para vistoria com no mínimo 39 m², além de equipamentos como macaco hidráulico, rampas, paquímetro e profundímetro digitais e câmera endoscópica.",
+    hint: "39 m² cobertos é o número-chave.",
+  },
+  {
+    id: 24,
+    theme: "Administração",
+    question: "Como o Estado fiscaliza as ECVs?",
+    answer:
+      "Pela Seção de Auditoria e Fiscalização (SAF) e pela Divisão de Registro de Veículos (DRV), com livre acesso a instalações, livros e laudos, inspeções amostrais sem aviso prévio e vistorias simuladas. Os laudos usam certificados digitais e-CPF A3 do vistoriador e e-CNPJ da ECV, com transmissão para a base da Prodemge e da CET-MG.",
+    hint: "Auditoria + certificado digital + base central.",
+  },
+  {
+    id: 25,
+    theme: "Administração",
+    question: "O que o STF decidiu sobre delegar poder de polícia a particulares?",
+    answer:
+      "No Tema 532 (RE 633.782), o STF considerou constitucional delegar atos materiais, executórios e preparatórios, como a vistoria, a particulares. A normatização, a fiscalização coercitiva, a sanção e a decisão final de registro e licenciamento permanecem com o poder público.",
+    hint: "Preparatório pode delegar; decisão final, não.",
+  },
+  {
+    id: 26,
+    theme: "Administração",
+    question: "Qual é o principal alerta de sustentabilidade do modelo em Minas Gerais?",
+    answer:
+      "Segundo dados apresentados em audiência pública na ALMG em abril de 2025, cerca de 93% das ECVs operavam com prejuízo, por saturação de mercado, concorrência remanescente do Estado e margem comprimida frente a custos fixos. Isso motivou a suspensão temporária de novos credenciamentos por 6 meses.",
+    hint: "Capilaridade alta não garante lucro da ECV.",
+  },
+  {
+    id: 27,
+    theme: "Administração",
+    question: "O que a Nova Gestão Pública tem a ver com esse TCC?",
+    answer:
+      "Ela é o referencial que defende gestão por resultados, foco no cidadão-usuário e parcerias com o setor privado, com o Estado mais como regulador e fiscalizador do que como executor direto. O princípio da eficiência, no art. 37 da Constituição, incluído pela EC nº 19/1998, é o pano de fundo dessa discussão.",
+    hint: "Resultado e cidadão no centro, sem abrir mão do controle.",
+  },
 ];
 
 export const quizQuestions: QuizQuestion[] = [
@@ -359,6 +432,86 @@ export const quizQuestions: QuizQuestion[] = [
     explanation:
       "Uma conclusão acadêmica forte é matizada: ela apresenta evidências, limites e o que os dados locais realmente mostraram.",
   },
+
+  {
+    id: 13,
+    theme: "Modelo",
+    question: "Qual norma autorizou o credenciamento das ECVs em Minas Gerais?",
+    options: [
+      "Lei nº 24.313/2023",
+      "Lei nº 24.470/2023",
+      "Decreto nº 48.703/2023",
+      "Portaria DETRAN nº 1.603/2022",
+    ],
+    correctIndex: 1,
+    explanation:
+      "A Lei nº 24.470/2023 autorizou o credenciamento. O Decreto nº 48.703/2023 regulamentou, e a Lei nº 24.313/2023 tratou da estrutura do Executivo.",
+  },
+  {
+    id: 14,
+    theme: "Administração",
+    question: "Quem gere hoje as vistorias credenciadas em Minas Gerais?",
+    options: [
+      "A Polícia Civil, diretamente",
+      "A CET-MG, vinculada à Seplag-MG",
+      "A Assembleia Legislativa",
+      "A Prodemge, sozinha",
+    ],
+    correctIndex: 1,
+    explanation:
+      "A gestão é da CET-MG/Seplag-MG. A Prodemge mantém a base de dados e a integração dos sistemas, sem ser a gestora do credenciamento.",
+  },
+  {
+    id: 15,
+    theme: "Administração",
+    question: "Qual é a carga mínima do curso de formação do vistoriador?",
+    options: [
+      "20 horas, todas teóricas",
+      "40 horas, sendo ao menos 16 horas práticas",
+      "80 horas, todas práticas",
+      "120 horas, sem prova",
+    ],
+    correctIndex: 1,
+    explanation:
+      "São no mínimo 40 horas-aula, com ao menos 16 horas práticas, prova teórica com 80% de acerto mínimo e prova prática.",
+  },
+  {
+    id: 16,
+    theme: "Administração",
+    question: "Pelo Tema 532 do STF, o que pode ser delegado a particulares na vistoria?",
+    options: [
+      "A decisão final de registro e a sanção",
+      "A normatização do serviço",
+      "Atos materiais e preparatórios, como a inspeção técnica",
+      "A fiscalização coercitiva",
+    ],
+    correctIndex: 2,
+    explanation:
+      "Atos materiais e preparatórios podem ser delegados. Normatização, fiscalização coercitiva, sanção e decisão final ficam com o poder público.",
+  },
+  {
+    id: 17,
+    theme: "Administração",
+    question: "Segundo o TCC, qual dado resume a crise de sustentabilidade das ECVs?",
+    options: [
+      "93% das ECVs operavam com prejuízo, em dados de audiência na ALMG em 2025",
+      "93% das ECVs fecharam em 2024",
+      "93% dos municípios ficaram sem vistoria",
+      "93% dos laudos foram reprovados",
+    ],
+    correctIndex: 0,
+    explanation:
+      "O dado do TCC é sobre prejuízo financeiro das empresas, ligado à saturação e à margem comprimida, não sobre fechamento, cobertura ou reprovação.",
+  },
+  {
+    id: 18,
+    theme: "Cidadão",
+    question: "Qual é a área coberta mínima exigida para a vistoria prática na ECV?",
+    options: ["9 m²", "20 m²", "39 m²", "100 m²"],
+    correctIndex: 2,
+    explanation:
+      "A exigência apresentada no TCC é de área coberta mínima de 39 m², em instalações permanentes em alvenaria.",
+  },
 ];
 
 export const qaItems: QaItem[] = [
@@ -395,7 +548,7 @@ export const qaItems: QaItem[] = [
     theme: "Metodologia",
     question: "Como a pesquisa de campo será feita?",
     answer:
-      "Por meio de questionário aplicado a usuários da ECV, com perguntas sobre perfil, acesso, tempo, custo percebido, qualidade, confiança e comparação entre o modelo antigo e o novo, além de perguntas abertas para sugestões. As respostas são anônimas e tratadas apenas para fins acadêmicos.",
+      "Por meio de questionário fechado e anônimo aplicado a usuários da ECV, com 18 perguntas sobre contexto, modelo atual e comparação antigo x novo. Quem nunca fez vistoria no modelo antigo responde 14; quem já fez, responde as 18. As respostas são voluntárias e tratadas apenas para fins acadêmicos, sem nome, CPF, placa ou contato.",
   },
   {
     id: 6,
@@ -409,7 +562,7 @@ export const qaItems: QaItem[] = [
     theme: "Análise",
     question: "Como analisar os resultados do questionário?",
     answer:
-      "Organize por blocos: perfil, acesso e tempo, qualidade e confiança, comparação antigo x novo e sugestões. Use percentuais e gráficos simples para as perguntas fechadas e agrupe as respostas abertas por temas recorrentes, citando exemplos sem identificar ninguém.",
+      "Organize por blocos: contexto, modelo atual e comparação antigo x novo. Use contagens e percentuais por pergunta, gráficos simples por bloco, e compare quem viveu os dois modelos com quem só conhece o atual, sem expor cruzamentos com pouquíssimas respostas. Registre também o que o campo não mede: fiscalização do Estado e lucro das ECVs.",
   },
   {
     id: 8,
@@ -431,6 +584,35 @@ export const qaItems: QaItem[] = [
     question: "Qual é a principal contribuição do trabalho?",
     answer:
       "Dar voz a quem usa o serviço e organizar, em um estudo de caso, evidências sobre o que realmente mudou com a terceirização: onde houve ganho, onde persistiram problemas e o que pode ser aprimorado na regulação e na fiscalização.",
+  },
+
+  {
+    id: 11,
+    theme: "Defesa",
+    question: "Se a banca disser que terceirizar é privatizar, como responder?",
+    answer:
+      "Distinguindo execução de decisão: a ECV executa a inspeção técnica, mas a normatização, a fiscalização coercitiva, a sanção e a decisão final de registro continuam com o poder público, conforme o Tema 532 do STF. Terceirizar a execução, com credenciamento e auditoria, não é o mesmo que transferir o poder decisório.",
+  },
+  {
+    id: 12,
+    theme: "Defesa",
+    question: "Como tratar o dado de 93% das ECVs com prejuízo sem culpar o cidadão?",
+    answer:
+      "Como um problema de desenho e equilíbrio do mercado, não de culpa do usuário: saturação de credenciamentos, custos fixos exigidos e margem comprimida. O TCC pode discutir capilaridade para o cidadão e sustentabilidade para as empresas como dois objetivos que precisam ser equilibrados pela regulação.",
+  },
+  {
+    id: 13,
+    theme: "Metodologia",
+    question: "O que muda na seção 3 do TCC se o campo for incluído?",
+    answer:
+      "Ela deixa de ser estritamente documental e passa a descrever também o levantamento: público, local, período, instrumento de 18 perguntas fechadas e anônimas, forma de análise descritiva e limites, como ser uma única ECV em Boa Esperança, sem representar todo o estado.",
+  },
+  {
+    id: 14,
+    theme: "Defesa",
+    question: "Por que Boa Esperança não representa todo o estado?",
+    answer:
+      "Porque é um estudo de caso: mostra em profundidade a experiência local, mas uma única ECV, em um único município e período, não permite generalizar percentuais para os 853 municípios mineiros. O valor está na comparação local e nos mecanismos, não na extrapolação automática.",
   },
 ];
 
@@ -492,6 +674,50 @@ export const glossary: GlossaryItem[] = [
     meaning:
       "Instrumento padronizado de coleta, com perguntas fechadas e abertas aplicadas aos participantes.",
     example: "Seu questionário terá de 10 a 20 perguntas sobre o serviço.",
+  },
+
+  {
+    term: "CET-MG",
+    meaning:
+      "Coordenadoria Estadual de Gestão de Trânsito, vinculada à Seplag-MG, que regulamenta, credencia, fiscaliza e homologa laudos.",
+    example: "A CET-MG é a gestora do sistema de ECVs em Minas Gerais.",
+  },
+  {
+    term: "Seplag-MG",
+    meaning:
+      "Secretaria de Estado de Planejamento e Gestão de Minas Gerais, à qual a CET-MG está vinculada.",
+    example: "A transferência do trânsito da Polícia Civil foi para a Seplag.",
+  },
+  {
+    term: "Ciretran",
+    meaning:
+      "Circunscrição Regional de Trânsito, unidade da Polícia Civil onde, no modelo antigo, as vistorias eram executadas.",
+    example: "No modelo antigo, o cidadão ia ao Ciretran da comarca.",
+  },
+  {
+    term: "DAE",
+    meaning:
+      "Documento de Arrecadação Estadual, usado para pagar a parcela estadual da cobrança da vistoria.",
+    example: "No exemplo do TCC, 26 UFEMG vão ao Estado via DAE.",
+  },
+  {
+    term: "UFEMG",
+    meaning:
+      "Unidade Fiscal do Estado de Minas Gerais, usada para expressar taxas e preços públicos, com valor em reais atualizado periodicamente.",
+    example: "A cobrança total do exemplo é de 49 UFEMG, repartida entre Estado e ECV.",
+  },
+  {
+    term: "ETIV",
+    meaning:
+      "Empresa de Tecnologia de Vistoria, homologada para fornecer o software de vistoria, integrar dados e transmitir imagens.",
+    example:
+      "A parcela tecnológica de 2,5 UFEMG é paga pela ECV à ETIV e está contida no preço bruto da ECV.",
+  },
+  {
+    term: "Prodemge",
+    meaning:
+      "Companhia de Tecnologia da Informação de Minas Gerais, responsável pela base central de veículos e pela integração dos sistemas do Estado.",
+    example: "Fotos e dados da vistoria são transmitidos para a base mantida com a Prodemge.",
   },
 ];
 
@@ -764,5 +990,168 @@ export const studyPlan = [
     day: "Dia 7",
     focus: "Defesa",
     task: "Responda em voz alta às perguntas da aba Perguntas e Respostas.",
+  },
+];
+
+export type KeyNumber = {
+  label: string;
+  value: string;
+  note: string;
+};
+
+export const keyNumbers: KeyNumber[] = [
+  {
+    label: "Empresas credenciadas",
+    value: "1.662 ECVs",
+    note: "Número apresentado no TCC, após 16 meses de implementação.",
+  },
+  {
+    label: "Vistoriadores capacitados",
+    value: "6,8 mil",
+    note: "Profissionais certificados para executar as vistorias.",
+  },
+  {
+    label: "Cobertura municipal",
+    value: "98,6%",
+    note: "Dos 853 municípios mineiros, segundo o TCC.",
+  },
+  {
+    label: "Laudos emitidos",
+    value: "Mais de 3,2 milhões",
+    note: "Laudos acumulados no período apresentado no TCC.",
+  },
+  {
+    label: "Custo total do exemplo",
+    value: "49 UFEMG",
+    note: "No exemplo de transferência: 26 UFEMG de DAE + 23 UFEMG à ECV.",
+  },
+  {
+    label: "Agendamento antigo x novo",
+    value: "15 a 60 dias x mesmo dia",
+    note: "Prazo nas maiores delegacias no modelo antigo, contra atendimento imediato ou no mesmo dia no modelo credenciado.",
+  },
+  {
+    label: "Execução da vistoria",
+    value: "15 a 20 minutos",
+    note: "Tempo médio de execução no modelo credenciado, segundo o TCC.",
+  },
+  {
+    label: "Sustentabilidade das ECVs",
+    value: "93% com prejuízo",
+    note: "Dado de audiência pública na ALMG em abril de 2025, citado no TCC.",
+  },
+];
+
+export type LegalMilestone = {
+  norm: string;
+  date: string;
+  what: string;
+};
+
+export const legalMilestones: LegalMilestone[] = [
+  {
+    norm: "Portaria DETRAN-MG nº 1.603/2022",
+    date: "2022",
+    what: "Regulamento da formação de vistoriadores: curso presencial, prova teórica e prática e atualização anual.",
+  },
+  {
+    norm: "Emenda à Constituição Estadual nº 113/2023 e Lei nº 24.313/2023",
+    date: "2023",
+    what: "Reorganização do Executivo e transferência das competências de trânsito da Polícia Civil para a Seplag/CET-MG.",
+  },
+  {
+    norm: "Lei Estadual nº 24.470/2023",
+    date: "Setembro de 2023",
+    what: "Autorizou a CET-MG a credenciar pessoas jurídicas para a vistoria de identificação veicular, com preço público.",
+  },
+  {
+    norm: "Decreto Estadual nº 48.703/2023",
+    date: "Outubro de 2023",
+    what: "Regulamentou o credenciamento, com preços em UFEMG: 23 unidades para vistoria interna e 27 para vistoria móvel.",
+  },
+  {
+    norm: "Portarias CET-MG nº 1.290/2023 e nº 1.291/2023",
+    date: "Outubro de 2023",
+    what: "Detalharam o rito do credenciamento, a vigência de 3 anos renováveis e a operação assistida.",
+  },
+  {
+    norm: "Audiência pública na ALMG",
+    date: "Abril de 2025",
+    what: "Setor apresentou crise de sustentabilidade, com cerca de 93% das ECVs com prejuízo, e foi aprovada suspensão temporária de novos credenciamentos por 6 meses.",
+  },
+  {
+    norm: "Portarias DETRAN nº 0285/2026 e nº 0368/2026",
+    date: "Março de 2026",
+    what: "A Portaria nº 0368/2026 revogou a nº 0285/2026 para estudos regulatórios mais aprofundados. Segundo o TCC, a revogação não instituiu novo preço nem revisão tarifária.",
+  },
+];
+
+export type ControlItem = {
+  mechanism: string;
+  how: string;
+};
+
+export const controlItems: ControlItem[] = [
+  {
+    mechanism: "Credenciamento com requisitos",
+    how: "Idoneidade, regularidade fiscal e trabalhista, infraestrutura e ausência de conflito com despachante, leilão, oficina ou comércio de veículos.",
+  },
+  {
+    mechanism: "Distribuição randômica",
+    how: "O sistema distribui vistorias entre as ECVs do mesmo município, para evitar direcionamento por despachantes ou clientes.",
+  },
+  {
+    mechanism: "Laudo digital auditável",
+    how: "Fotos panorâmicas, chassi, motor, placas com QR Code e velocímetro, com validação automática junto às bases do Sistema Nacional de Trânsito.",
+  },
+  {
+    mechanism: "Certificados digitais",
+    how: "e-CPF A3 para cada vistoriador e e-CNPJ para cada ECV, garantindo autoria, autenticidade e não repúdio dos laudos.",
+  },
+  {
+    mechanism: "Auditoria e fiscalização",
+    how: "SAF e DRV, com acesso a instalações, livros e laudos, inspeções amostrais sem aviso e vistorias simuladas.",
+  },
+  {
+    mechanism: "Regime disciplinar",
+    how: "Advertência por escrito, suspensão de 30 a 90 dias, suspensão cautelar e descredenciamento definitivo, com impedimento de novo registro por 24 meses nos casos mais graves.",
+  },
+];
+
+export type AnalysisStep = {
+  step: string;
+  guidance: string;
+};
+
+export const analysisSteps: AnalysisStep[] = [
+  {
+    step: "1. Contar por pergunta",
+    guidance:
+      "Para cada uma das 18 perguntas, conte quantas respostas cada opção recebeu e registre também quantas pessoas responderam 14 e quantas responderam 18 perguntas.",
+  },
+  {
+    step: "2. Transformar em percentuais por bloco",
+    guidance:
+      "Agrupe em contexto, modelo atual e comparação antigo x novo. Use percentuais e um gráfico simples por bloco, sem expor cruzamentos com pouquíssimas respostas.",
+  },
+  {
+    step: "3. Comparar os dois grupos",
+    guidance:
+      "Compare a satisfação e a percepção de quem viveu os dois modelos com a de quem só conhece o modelo atual, sempre como percepção, não como prova de qualidade técnica.",
+  },
+  {
+    step: "4. Cruzar com os números do TCC",
+    guidance:
+      "Confronte a percepção de prazo, espera e custo com os números do TCC, como 15 a 60 dias no modelo antigo, 15 a 20 minutos de execução e 49 UFEMG repartidos, sem forçar causalidade.",
+  },
+  {
+    step: "5. Registrar limites",
+    guidance:
+      "Deixe claro: uma única ECV, em Boa Esperança, em um período definido, com amostra por adesão voluntária. Isso não representa todo o estado nem mede fiscalização ou lucro das empresas.",
+  },
+  {
+    step: "6. Transformar em recomendações",
+    guidance:
+      "Feche cada bloco com uma recomendação prática: acesso, clareza de valores, conforto, transparência do laudo e fiscalização, sempre vinculada a uma pergunta do questionário.",
   },
 ];

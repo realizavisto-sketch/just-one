@@ -6,12 +6,14 @@ com pesquisa de campo em uma ECV de Boa Esperança (MG).
 
 O que a ferramenta inclui:
 
-- Flashcards por tema, com embaralhamento e marcação de cards dominados
-- Simulado com 12 questões, feedback imediato e resultado final
-- Perguntas e respostas para estudar e ensaiar a defesa
+- 27 flashcards por tema, com embaralhamento e marcação de cards dominados, incluindo legislação, formação de vistoriadores, fiscalização e sustentabilidade das ECVs
+- Simulado com 18 questões, feedback imediato e resultado final
+- 14 perguntas e respostas para estudar e ensaiar a defesa
 - Comparativo entre o modelo antigo e o modelo terceirizado (ECV)
-- Glossário, plano de estudos de 7 dias e checklist do TCC
+- Glossário com 17 termos, plano de estudos de 7 dias e checklist do TCC com 14 itens
 - Questionário de campo pronto, com 18 perguntas, todas fechadas e anônimas, incluindo comparação antigo x novo; quem nunca fez vistoria no modelo antigo responde 14, e quem já fez responde as 18
+- Nova aba “Marcos e Números”: 8 números-chave, 7 marcos normativos e 6 mecanismos de controle, todos a partir do TCC enviado
+- Guia de análise do campo, em 6 passos, na aba do questionário
 - Progresso salvo no navegador (localStorage)
 
 > Material de estudo e roteiro de pesquisa. Confirme a legislação vigente, as fontes oficiais e
